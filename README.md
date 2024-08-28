@@ -54,3 +54,21 @@
 - **설명**: 저전력, 장거리 통신 기술.
 - **용도**: IoT 기기에서 많이 사용.
 - **범위**: 수 킬로미터.
+
+
+---
+
+## jSerialComm
+
+jSerialComm은 자바(Java) 프로그램에서 시리얼 통신(Serial Communication)을 쉽게 다룰 수 있게 해주는 라이브러리입니다. 이 라이브러리를 사용하면 자바 프로그램에서 시리얼 포트(USB, COM 포트 등)를 통해 데이터를 송수신할 수 있습니다. 시리얼 통신은 주로 아두이노(Arduino)와 같은 마이크로컨트롤러나 다른 하드웨어 장치와의 통신에 사용됩니다.
+
+Serial Port Communication tutorial using Java and Arduino
+https://www.xanthium.in/cross-platform-serial-port-programming-tutorial-java-jdk-arduino-embedded-system-tutorial
+
+Serial Communication with Java in 2021 
+https://philstories.medium.com/the-landscape-of-serial-communication-with-java-in-2021-com-ports-c5d9741aa263
+
+What is jSerialComm?
+jSerialComm 외부 라이브러리 다운로드
+[intellij]-[파일]-[프로젝트구조]-[모듈]-[종속요소]-[+]-[1.JARs or Directories]
+https://fazecast.github.io/jSerialComm/?source=post_page-----c5d9741aa263--------------------------------
