@@ -109,10 +109,14 @@ https://fazecast.github.io/jSerialComm/?source=post_page-----c5d9741aa263-------
 ---
 # :sparkles: 통화기능(SIP 프로토콜)
 
-SIP(Session Initiation Protocol) 서버는 VoIP 통신에서 사용되는 프로토콜로, 음성 통화를 시작하고 관리하는 역할을 합니다.<br>
+SIP(Session Initiation Protocol)는 VoIP 통신에서 사용되는 프로토콜로, 음성 통화를 시작하고 관리하는 역할을 합니다.<br>
 
-SIP를 사용하는 소프트폰(Software Phone) 2가지<br>
-:white_small_square: MicroSIP 다운로드 링크: https://www.microsip.org/
-:white_small_square: miniSIP 다운로드 링크: https://www.myvoipapp.com/
+SIP 서버<br>
+:white_small_square: miniSIP 다운로드 링크: https://www.myvoipapp.com/<br>
 
-자바 전화기, 안드로이드 전화기, 아이폰 전화기 등 다양한 플랫폼에서 VoIP 통신을 위한 전화기 앱을 다운로드하고 설치할 수 있습니다. 이 앱들은 각각의 운영체제에서 SIP 서버와 연결하여 음성 통신을 가능하게 합니다.
+SIP 클라이언트<br>
+:white_small_square: MicroSIP 다운로드 링크: https://www.microsip.org/<br>
+:white_small_square: 안드로이드 SIP 다운로드 링크: https://www.mizu-voip.com/Software/SIPSDK/AndroidSIPSDK.aspx
+
+자바 전화기, 안드로이드 전화기, 아이폰 전화기 등 다양한 플랫폼에서 VoIP 통신을 위한 전화기 앱을 다운로드하고 설치할 수 있습니다.<br>
+이 앱들은 각각의 운영체제에서 SIP 서버와 연결하여 음성 통신을 가능하게 합니다.
