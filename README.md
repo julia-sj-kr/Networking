@@ -1,4 +1,4 @@
-# 통신 방법 정리
+# :sparkles: 통신 방법 종류
 
 ## 1. 근거리 통신 방법
 
@@ -55,10 +55,9 @@
 - **용도**: IoT 기기에서 많이 사용.
 - **범위**: 수 킬로미터.
 
-
 ---
 
-## jSerialComm
+### :books:jSerialComm
 
 jSerialComm은 자바(Java) 프로그램에서 시리얼 통신(Serial Communication)을 쉽게 다룰 수 있게 해주는 라이브러리입니다. 이 라이브러리를 사용하면 자바 프로그램에서 시리얼 포트(USB, COM 포트 등)를 통해 데이터를 송수신할 수 있습니다. 시리얼 통신은 주로 아두이노(Arduino)와 같은 마이크로컨트롤러나 다른 하드웨어 장치와의 통신에 사용됩니다.
 
@@ -72,3 +71,37 @@ What is jSerialComm?
 jSerialComm 외부 라이브러리 다운로드
 [intellij]-[파일]-[프로젝트구조]-[모듈]-[종속요소]-[+]-[1.JARs or Directories]
 https://fazecast.github.io/jSerialComm/?source=post_page-----c5d9741aa263--------------------------------
+
+---
+# :sparkles: 프로토콜의 역할
+
+통신의 기초가 되는 중요한 개념으로 컴퓨터와 네트워크 장치들이 서로 데이터를 주고받을 때, 이 데이터가 어떤 형식으로 보내지고, 어떤 순서로 처리되어야 하는지, 오류가 발생하면 어떻게 대응할지 등을 정해 놓은 것이 프로토콜입니다. 이 규칙을 따르기 때문에 서로 다른 기기와 시스템이 문제없이 통신할 수 있습니다.
+
+프로토콜의 예<br>
+:white_small_square:HTTP (Hypertext Transfer Protocol): 웹 브라우저와 웹 서버 간의 통신을 위한 프로토콜입니다. 예를 들어, 여러분이 웹사이트에 접속할 때 이 프로토콜이 사용됩니다.<br>
+:white_small_square:TCP/IP (Transmission Control Protocol/Internet Protocol): 인터넷에서 데이터를 주고받는 기본 프로토콜입니다. TCP는 데이터를 안정적으로 전송하도록 도와주고, IP는 데이터가 올바른 주소로 가도록 합니다.<br>
+:white_small_square:FTP (File Transfer Protocol): 컴퓨터 간 파일을 주고받을 때 사용하는 프로토콜입니다.<br>
+:white_small_square:SIP (Session Initiation Protocol): 음성이나 영상 통화 같은 실시간 통신을 시작하고 관리하기 위한 프로토콜입니다.<br>
+:white_small_square:비유를 통해 이해하기<br>
+프로토콜을 사람 사이의 언어로 비유할 수 있습니다. 예를 들어, 한국어를 사용하는 사람끼리 대화를 할 때, 같은 언어 규칙(문법과 어휘)을 사용해야 서로 이해할 수 있듯이, 네트워크 통신에서도 서로 다른 장치들이 같은 프로토콜을 사용해야 원활하게 데이터를 주고받을 수 있습니다.
+
+---
+# :sparkles: 네트워크 프로토콜 계층 모델
+
+네트워크에서 데이터를 주고받기 위해 여러 계층(layer)으로 나뉜 프로토콜이 존재합니다. 이 계층 구조를 OSI 모델 또는 TCP/IP 모델이라고 합니다. 각 계층은 특정한 역할을 담당하며, 상위 계층의 데이터는 하위 계층을 통해 물리적으로 전송됩니다.
+
+:white_small_square:애플리케이션 계층 (Application Layer):<br>
+사용자에게 직접 서비스를 제공하는 계층입니다. 웹 브라우징, 이메일, 파일 전송 등이 여기 속합니다.<br>
+예: FTP, HTTP, SMTP, DNS, SIP 등.
+
+:white_small_square:전송 계층 (Transport Layer):<br>
+데이터 전송을 책임지는 계층입니다. 이 계층에서는 데이터의 신뢰성, 흐름 제어, 오류 복구를 담당합니다.<br>
+예: TCP(Transmission Control Protocol), UDP(User Datagram Protocol).
+
+:white_small_square:네트워크 계층 (Network Layer):<br>
+데이터를 목적지까지 전송하는 경로를 결정하는 계층입니다. IP 주소를 사용하여 데이터 패킷을 올바른 주소로 전달합니다.<br>
+예: IP(Internet Protocol).
+
+:white_small_square:링크 계층 (Link Layer):<br>
+동일 네트워크 내에서 데이터를 전송하는 물리적 연결을 담당합니다. 실제로 데이터를 전송하는 하드웨어적인 계층입니다.<br>
+예: 이더넷, Wi-Fi.
