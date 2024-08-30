@@ -1,0 +1,276 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myphone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:5:5-96
+12        android:name="android.hardware.audio.low_latency"
+12-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:5:19-68
+13        android:required="false" />
+13-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:5:69-93
+14    <uses-feature
+14-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:6:5-91
+15        android:name="android.hardware.audio.output"
+15-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:6:19-63
+16        android:required="false" />
+16-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:6:64-88
+17    <uses-feature
+17-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:7:5-88
+18        android:name="android.hardware.audio.pro"
+18-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:7:19-60
+19        android:required="false" />
+19-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:7:61-85
+20    <uses-feature
+20-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:8:5-88
+21        android:name="android.hardware.telephony"
+21-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:8:19-60
+22        android:required="false" />
+22-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:8:61-85
+23    <uses-feature
+23-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:9:5-88
+24        android:name="android.hardware.bluetooth"
+24-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:9:19-60
+25        android:required="false" />
+25-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:9:61-85
+26    <uses-feature
+26-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:10:5-91
+27        android:name="android.hardware.bluetooth_le"
+27-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:10:19-63
+28        android:required="false" />
+28-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:10:64-88
+29    <uses-feature
+29-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:11:5-83
+30        android:name="android.hardware.wifi"
+30-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:11:19-55
+31        android:required="false" />
+31-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:11:56-80
+32    <uses-feature
+32-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:12:5-89
+33        android:name="android.hardware.microphone"
+33-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:12:19-61
+34        android:required="false" />
+34-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:12:62-86
+35    <uses-feature
+35-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:13:5-95
+36        android:name="android.hardware.sensor.proximity"
+36-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:13:19-67
+37        android:required="false" />
+37-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:13:68-92
+38    <uses-feature
+38-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:14:5-85
+39        android:name="android.hardware.camera"
+39-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:14:19-57
+40        android:required="false" />
+40-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:14:58-82
+41    <uses-feature
+41-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:15:5-95
+42        android:name="android.hardware.camera.autofocus"
+42-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:15:19-67
+43        android:required="false" />
+43-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:15:68-92
+44    <uses-feature
+44-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:16:5-91
+45        android:name="android.hardware.camera.front"
+45-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:16:19-63
+46        android:required="false" />
+46-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:16:64-88
+47    <uses-feature
+47-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:17:5-89
+48        android:name="android.hardware.camera.any"
+48-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:17:19-61
+49        android:required="false" />
+49-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:17:62-86
+50    <uses-feature
+50-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:18:5-82
+51        android:name="android.software.sip"
+51-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:18:19-54
+52        android:required="false" />
+52-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:18:55-79
+53    <uses-feature
+53-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:19:5-87
+54        android:name="android.software.sip.voip"
+54-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:19:19-59
+55        android:required="false" />
+55-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:19:60-84
+56    <uses-feature
+56-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:20:5-86
+57        android:name="android.software.webview"
+57-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:20:19-58
+58        android:required="false" />
+58-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:20:59-83
+59
+60    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+60-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:22:5-71
+60-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:22:22-68
+61    <uses-permission android:name="android.permission.INTERNET" />
+61-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:23:5-66
+61-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:23:22-64
+62    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+62-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:24:5-79
+62-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:24:22-76
+63    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+63-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:25:5-76
+63-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:25:22-73
+64    <uses-permission android:name="android.permission.BLUETOOTH" />
+64-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:26:5-68
+64-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:26:22-65
+65    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+65-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:27:5-76
+65-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:27:22-73
+66    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+66-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:28:5-79
+66-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:28:22-76
+67    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+67-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:29:5-76
+67-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:29:22-73
+68    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+68-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:30:5-75
+68-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:30:22-72
+69    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+69-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:31:5-80
+69-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:31:22-77
+70    <uses-permission android:name="android.permission.USE_SIP" />
+70-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:32:5-66
+70-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:32:22-63
+71    <uses-permission android:name="android.permission.VIBRATE" />
+71-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:33:5-66
+71-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:33:22-63
+72    <uses-permission android:name="android.permission.WAKE_LOCK" />
+72-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:34:5-68
+72-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:34:22-65
+73    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+73-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:35:5-80
+73-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:35:22-78
+74    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+74-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:36:5-73
+74-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:36:22-70
+75    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+75-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:37:5-73
+75-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:37:22-70
+76
+77    <permission
+77-->[androidx.core:core:1.13.0] C:\Users\405\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+78        android:name="com.example.myphone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+78-->[androidx.core:core:1.13.0] C:\Users\405\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+79        android:protectionLevel="signature" />
+79-->[androidx.core:core:1.13.0] C:\Users\405\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+80
+81    <uses-permission android:name="com.example.myphone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+81-->[androidx.core:core:1.13.0] C:\Users\405\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+81-->[androidx.core:core:1.13.0] C:\Users\405\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+82
+83    <application
+83-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:39:5-58:19
+84        android:allowBackup="true"
+84-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:40:9-35
+85        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+85-->[androidx.core:core:1.13.0] C:\Users\405\.gradle\caches\transforms-4\5932728f22750a0b69dd67e5f5984a30\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+86        android:dataExtractionRules="@xml/data_extraction_rules"
+86-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:41:9-65
+87        android:debuggable="true"
+88        android:extractNativeLibs="false"
+89        android:fullBackupContent="@xml/backup_rules"
+89-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:42:9-54
+90        android:icon="@mipmap/ic_launcher"
+90-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:43:9-43
+91        android:label="@string/app_name"
+91-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:44:9-41
+92        android:roundIcon="@mipmap/ic_launcher_round"
+92-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:45:9-54
+93        android:supportsRtl="true"
+93-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:46:9-35
+94        android:testOnly="true"
+95        android:theme="@style/Theme.MyPhone" >
+95-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:47:9-45
+96        <activity
+96-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:49:9-57:20
+97            android:name="com.example.myphone.MainActivity"
+97-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:50:13-41
+98            android:exported="true" >
+98-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:51:13-36
+99            <intent-filter>
+99-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:52:13-56:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:53:17-69
+100-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:53:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:55:17-77
+102-->C:\Users\405\Desktop\Protocol_Kit\MyPhone\app\src\main\AndroidManifest.xml:55:27-74
+103            </intent-filter>
+104        </activity>
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.3.0] C:\Users\405\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\405\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+108            android:authorities="com.example.myphone.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.3.0] C:\Users\405\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.3.0] C:\Users\405\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.3.0] C:\Users\405\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\405\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\405\.gradle\caches\transforms-4\146721ccadc9e0a72751cd7d6aae1082\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\405\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\405\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\405\.gradle\caches\transforms-4\b202ac154fdbd6cc385890ed0d302cc2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+118                android:value="androidx.startup" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+119        </provider>
+120
+121        <receiver
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+122            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+123            android:directBootAware="false"
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+124            android:enabled="true"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+125            android:exported="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+126            android:permission="android.permission.DUMP" >
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+128                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+131                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+134                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+137                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\405\.gradle\caches\transforms-4\e41567db16eba96eef9ceb56be71f752\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+138            </intent-filter>
+139        </receiver>
+140    </application>
+141
+142</manifest>

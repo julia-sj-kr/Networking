@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_call
+id btn_hangup
+id btn_start
+id btn_test
+id dest_number
+id notifications
+id parameters_view
+id status
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MyPhone
+style Theme.MyPhone
+xml backup_rules
+xml data_extraction_rules
